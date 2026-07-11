@@ -1,0 +1,156 @@
+:root {
+  --bs-primary: #0d9488;
+  --bs-primary-rgb: 13, 148, 136;
+  --bs-link-color: #0d9488;
+  --bs-link-hover-color: #0f766e;
+
+  --brand-25: #f7fdfc;
+  --brand-50: #eefbf9;
+  --brand-100: #d4f3ee;
+  --brand-500: #14b8a6;
+  --brand-600: #0d9488;
+  --brand-700: #0f766e;
+  --navy-900: #0b1220;
+  --navy-800: #131c2e;
+  --navy-700: #1c2740;
+  --surface: #f5f7fa;
+  --border-soft: #e6e9ef;
+}
+
+body {
+  background: var(--surface);
+  color: #1f2937;
+}
+
+.btn-primary {
+  --bs-btn-bg: var(--brand-600);
+  --bs-btn-border-color: var(--brand-600);
+  --bs-btn-hover-bg: var(--brand-700);
+  --bs-btn-hover-border-color: var(--brand-700);
+  --bs-btn-active-bg: var(--brand-700);
+  --bs-btn-active-border-color: var(--brand-700);
+  --bs-btn-focus-shadow-rgb: 13, 148, 136;
+}
+
+.btn-outline-primary {
+  --bs-btn-color: var(--brand-600);
+  --bs-btn-border-color: var(--brand-600);
+  --bs-btn-hover-bg: var(--brand-600);
+  --bs-btn-hover-border-color: var(--brand-600);
+}
+
+.card {
+  border: 1px solid var(--border-soft);
+  border-radius: 0.75rem;
+}
+
+.shadow-soft {
+  box-shadow: 0 1px 2px rgba(16, 24, 40, 0.04), 0 4px 12px rgba(16, 24, 40, 0.06);
+}
+
+/* App shell */
+.app-sidebar {
+  width: 260px;
+  background: linear-gradient(180deg, var(--navy-900) 0%, var(--navy-800) 100%);
+  color: #cbd5e1;
+}
+
+.app-sidebar .brand {
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+}
+
+.app-sidebar .brand-mark {
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+  background: var(--brand-500);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.app-nav-link {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  padding: 0.6rem 0.85rem;
+  border-radius: 0.6rem;
+  color: #aab4c5;
+  text-decoration: none;
+  font-size: 0.925rem;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.app-nav-link:hover {
+  background: rgba(255, 255, 255, 0.06);
+  color: #fff;
+}
+
+.app-nav-link.active {
+  background: var(--brand-600);
+  color: #fff;
+}
+
+.app-nav-link svg {
+  font-size: 1.05rem;
+  flex-shrink: 0;
+}
+
+.app-topbar {
+  background: #fff;
+  border-bottom: 1px solid var(--border-soft);
+}
+
+/* Avatar */
+.avatar-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 0.875rem;
+  color: #fff;
+  flex-shrink: 0;
+}
+
+/* Stat card */
+.stat-icon {
+  width: 52px;
+  height: 52px;
+  border-radius: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  flex-shrink: 0;
+}
+
+/* Table */
+.table-modern thead th {
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #6b7280;
+  border-bottom-width: 1px;
+  background: #fafbfc;
+}
+
+.table-modern tbody tr:hover {
+  background: var(--brand-25);
+}
+
+.page-title {
+  color: #111827;
+  font-weight: 700;
+}
+
+.text-muted-soft {
+  color: #6b7280;
+}

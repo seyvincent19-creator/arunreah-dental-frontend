@@ -1,0 +1,1 @@
+import{F as e}from"./index-DMv9NDRr.js";var t=t=>e.get(`/medicines`,{params:t}).then(e=>e.data),n=t=>e.post(`/medicines`,t).then(e=>e.data.medicine),r=(t,n)=>e.put(`/medicines/${t}`,n).then(e=>e.data.medicine),i=t=>e.delete(`/medicines/${t}`).then(e=>e.data);export{r as i,i as n,t as r,n as t};

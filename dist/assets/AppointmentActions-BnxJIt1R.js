@@ -1,4 +1,4 @@
-import{C as e,E as t,M as n,P as r,d as i,f as a,i as o,y as s}from"./index-C4OPUKy-.js";function c(e){let t=document.createElement(`div`);return t.textContent=e,t.innerHTML}function l(e){let t=window.open(``,`_blank`,`width=480,height=640`);if(!t)return;let n=c(e.patient.full_name),r=c(e.patient.patient_code),i=c(e.doctor.doctor_name),a=c(e.doctor.specialization),o=c(e.purpose),s=e.remark?c(e.remark):``;t.document.write(`
+import{C as e,E as t,M as n,P as r,d as i,f as a,i as o,y as s}from"./index-BW7-GjCJ.js";function c(e){let t=document.createElement(`div`);return t.textContent=e,t.innerHTML}function l(e){let t=window.open(``,`_blank`,`width=480,height=640`);if(!t)return;let n=c(e.patient.full_name),r=c(e.patient.patient_code),i=c(e.doctor.doctor_name),a=c(e.doctor.specialization),o=c(e.purpose),s=e.remark?c(e.remark):``;t.document.write(`
     <!doctype html>
     <html>
       <head>

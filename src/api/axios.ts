@@ -3,14 +3,14 @@ import axios from 'axios';
 export const TOKEN_STORAGE_KEY = 'arunreah_token';
 
 const getBaseURL = () => {
+  if (window.location.hostname !== 'localhost' && window.location.hostname !== '127.0.0.1') {
+    return '/api';
+  }
   const envUrl = import.meta.env.VITE_API_BASE_URL;
   if (envUrl && envUrl.startsWith('http')) {
     return envUrl;
   }
-  if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
-    return 'http://127.0.0.1:8100/api';
-  }
-  return '/api';
+  return 'http://127.0.0.1:8100/api';
 };
 
 const api = axios.create({

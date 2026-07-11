@@ -1,1 +1,0 @@
-import{F as e}from"./index-C4OPUKy-.js";var t=t=>e.get(`/treatments`,{params:t}).then(e=>e.data),n=t=>e.post(`/treatments`,t).then(e=>e.data.treatment),r=(t,n)=>e.put(`/treatments/${t}`,n).then(e=>e.data.treatment),i=t=>e.delete(`/treatments/${t}`).then(e=>e.data);export{r as i,i as n,t as r,n as t};

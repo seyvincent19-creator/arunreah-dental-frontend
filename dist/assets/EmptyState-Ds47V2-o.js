@@ -1,1 +1,0 @@
-import{P as e}from"./index-C4OPUKy-.js";var t=e();function n({icon:e,title:n,message:r}){return(0,t.jsxs)(`div`,{className:`text-center py-5`,children:[(0,t.jsx)(`div`,{className:`fs-1 text-muted-soft mb-2`,children:e}),(0,t.jsx)(`div`,{className:`fw-semibold`,children:n}),r&&(0,t.jsx)(`div`,{className:`text-muted-soft small`,children:r})]})}export{n as t};

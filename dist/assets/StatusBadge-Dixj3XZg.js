@@ -1,1 +1,0 @@
-import{P as e}from"./index-C4OPUKy-.js";var t=e();function n({status:e}){let n=e===`active`;return(0,t.jsx)(`span`,{className:`badge rounded-pill fw-medium ${n?`text-bg-success-subtle text-success-emphasis`:`text-bg-secondary-subtle text-secondary-emphasis`}`,children:n?`Active`:`Inactive`})}export{n as t};

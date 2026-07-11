@@ -1,0 +1,1 @@
+import{F as e}from"./index-BW7-GjCJ.js";var t=t=>e.get(`/doctors`,{params:t}).then(e=>e.data),n=t=>e.post(`/doctors`,t).then(e=>e.data.doctor),r=(t,n)=>e.put(`/doctors/${t}`,n).then(e=>e.data.doctor),i=t=>e.delete(`/doctors/${t}`).then(e=>e.data);export{r as i,i as n,t as r,n as t};

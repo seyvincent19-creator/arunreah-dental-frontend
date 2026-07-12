@@ -1,6 +1,11 @@
 <IfModule mod_rewrite.c>
   RewriteEngine On
   RewriteBase /
+
+  # 1. Route all API requests to the Laravel backend public entry point
+  RewriteRule ^api/(.*)$ public/index.php [L]
+
+  # 2. Route all other requests to the React SPA index.html
   RewriteRule ^index\.html$ - [L]
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteCond %{REQUEST_FILENAME} !-d
